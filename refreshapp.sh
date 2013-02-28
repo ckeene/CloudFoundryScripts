@@ -14,7 +14,7 @@ spawn vmc target api.cloudfoundry.com
 expect eof
 
 # LOGIN to cloud foundry account
-spawn vmc login --email chris@ckeene.com --passwd c1keene
+spawn vmc login --email foo@bar.com --passwd foobar
 expect eof
 
 # DELETE-SERVICE stop existing service
