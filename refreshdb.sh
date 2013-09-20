@@ -11,7 +11,7 @@ export http_proxy=http://proxy.vmware.com:3128
 vmc target api.cloudfoundry.com
 
 # LOGIN to cloud foundry account
-vmc login --email chris@ckeene.com --passwd c1keene
+vmc login --email foo@bar.com --passwd foobar
 
 # DELETE-SERVICE stop existing service
 vmc delete-service custpurchase
